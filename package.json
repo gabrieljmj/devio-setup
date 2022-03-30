@@ -1,0 +1,16 @@
+{
+    "name": "devio-setup",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Setup projects based on Devio code patterns.",
+    "author": "Gabriel Jacinto <gamjj74@hotmail.com>",
+    "bin": {
+        "devio-setup": "./index.js"
+    },
+    "dependencies": {
+        "chalk": "4.1.2",
+        "commander": "^9.1.0",
+        "cross-spawn": "^7.0.3",
+        "rd": "^2.0.1"
+    }
+}
