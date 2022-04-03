@@ -45,6 +45,7 @@
         "react-hooks/exhaustive-deps": 0,
         "import/prefer-default-export": 0,
         "global-require": 0,
-        "react/style-prop-object": 0
+        "react/style-prop-object": 0,
+        "react/react-in-jsx-scope": 0
     }
 }
