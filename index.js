@@ -49,6 +49,10 @@ async function run(isJsxProject, defaultPackageManager) {
     'husky',
   ];
 
+  if (isJsxProject) {
+    dependencies.push('@types/react');
+  }
+
   console.log(chalk.cyan('Installing dependencies...'));
   console.log(chalk.grey('Using package manager:', packageManager));
   console.log();
